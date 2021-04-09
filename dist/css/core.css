@@ -452,6 +452,14 @@ h6 {
   line-height: 1.2
 }
 
+.row h1 {
+  font-family: 'Dancing Script', cursive;
+	margin-top: 0;
+	margin-bottom: 10px;
+  color: #FFFF;    
+  text-align: center;
+
+}
 .display-2 {
   font-size: 88px;
   font-size: 5.5rem
