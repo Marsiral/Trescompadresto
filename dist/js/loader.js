@@ -9,4 +9,4 @@
       });
   })(jQuery)
   
-  document.getElementsByClassName("animsition-loading").style.display="none";
+  document.getElementsByClassName("animsition-loading").style.visibility = "hidden";
