@@ -23705,6 +23705,9 @@ print {
   float: left;
   padding-left: 10px;
 }
+#titleID{
+  font-family: 'Dancing Script', cursive;
+}
 #shopcart{
   padding-right: 25px;
 }
