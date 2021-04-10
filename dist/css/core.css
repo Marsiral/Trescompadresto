@@ -23728,8 +23728,8 @@ print {
 }
 
 .preloader{
-  -webkit-animation: spin 1s linear infinite; /* Safari */
-  animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s  infinite; /* Safari */
+  animation: spin 1s  infinite;
   display: block;
   margin-left: auto;
   margin-right: auto;
