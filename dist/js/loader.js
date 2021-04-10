@@ -5,6 +5,7 @@
           {
             setTimeout(function(){
                 $('.preloader').fadeOut('slow');
+                $('.ploader').fadeOut('slow');
             },1000);
           }
           
