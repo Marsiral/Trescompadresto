@@ -2780,9 +2780,6 @@ pre code {
 }
 
 @media (prefers-reduced-motion:reduce) {
-  #hidelogo{
-    display: none;
-  }
   .form-control {
     -webkit-transition: none;
     transition: none
@@ -23689,7 +23686,4 @@ print {
 .align {
   display:flex;
   align-items:center;
-}
-#hidelogo{
-  display: visible;
 }
