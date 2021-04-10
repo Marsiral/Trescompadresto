@@ -3,8 +3,12 @@
       $(window).on('load', function () {
           if ($(".ploader").length > 0)
           {
-              $(".ploader").fadeOut("slow");
+            setTimeout(function(){
+                $('.ploader').fadeOut('slow');
+            },1000);
           }
+          
       });
   })(jQuery)
+  
   
