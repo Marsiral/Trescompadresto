@@ -632,7 +632,7 @@ pre code {
     max-width: 540px
   }
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -641,7 +641,7 @@ pre code {
     max-width: 720px
   }
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -650,7 +650,7 @@ pre code {
     max-width: 960px
   }
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -659,7 +659,7 @@ pre code {
     max-width: 1140px
   }
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -682,7 +682,7 @@ pre code {
     max-width: 540px
   }
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -694,7 +694,7 @@ pre code {
     max-width: 720px
   }
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -707,7 +707,7 @@ pre code {
     max-width: 960px
   }
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -721,7 +721,7 @@ pre code {
     max-width: 1140px
   }
    #hidelogo{
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -1158,7 +1158,7 @@ pre code {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .col-sm {
     -webkit-flex-basis: 0;
@@ -1481,7 +1481,7 @@ pre code {
 
 @media (min-width:768px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .col-md {
     -webkit-flex-basis: 0;
@@ -1804,7 +1804,7 @@ pre code {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .col-lg {
     -webkit-flex-basis: 0;
@@ -2127,7 +2127,7 @@ pre code {
 
 @media (min-width:1200px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .col-xl {
     -webkit-flex-basis: 0;
@@ -2701,7 +2701,7 @@ pre code {
 
 @media (max-width:575.98px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .table-responsive-sm {
     display: block;
@@ -2717,7 +2717,7 @@ pre code {
 
 @media (max-width:767.98px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .table-responsive-md {
     display: block;
@@ -2733,7 +2733,7 @@ pre code {
 
 @media (max-width:991.98px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .table-responsive-lg {
     display: block;
@@ -2749,7 +2749,7 @@ pre code {
 
 @media (max-width:1199.98px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .table-responsive-xl {
     display: block;
@@ -3256,7 +3256,7 @@ textarea.form-control.is-invalid {
 
 @media (min-width:576px) {
    #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .form-inline label {
     -ms-flex-align: center;
@@ -4160,7 +4160,7 @@ input[type=submit].btn-block {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .dropdown-menu-sm-left {
     right: auto;
@@ -4175,7 +4175,7 @@ input[type=submit].btn-block {
 
 @media (min-width:768px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .dropdown-menu-md-left {
     right: auto;
@@ -4190,7 +4190,7 @@ input[type=submit].btn-block {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .dropdown-menu-lg-left {
     right: auto;
@@ -4205,7 +4205,7 @@ input[type=submit].btn-block {
 
 @media (min-width:1200px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .dropdown-menu-xl-left {
     right: auto;
@@ -5460,7 +5460,7 @@ input[type=submit].btn-block {
 
 @media (max-width:575.98px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .navbar-expand-sm>.container,
   .navbar-expand-sm>.container-fluid,
@@ -5475,7 +5475,7 @@ input[type=submit].btn-block {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .navbar-expand-sm {
     -webkit-flex-flow: row nowrap;
@@ -5536,7 +5536,7 @@ input[type=submit].btn-block {
 
 @media (max-width:767.98px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .navbar-expand-md>.container,
   .navbar-expand-md>.container-fluid,
@@ -5551,7 +5551,7 @@ input[type=submit].btn-block {
 
 @media (min-width:768px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .navbar-expand-md {
     -webkit-flex-flow: row nowrap;
@@ -5612,7 +5612,7 @@ input[type=submit].btn-block {
 
 @media (max-width:991.98px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .navbar-expand-lg>.container,
   .navbar-expand-lg>.container-fluid,
@@ -5627,7 +5627,7 @@ input[type=submit].btn-block {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .navbar-expand-lg {
     -webkit-flex-flow: row nowrap;
@@ -5688,7 +5688,7 @@ input[type=submit].btn-block {
 
 @media (max-width:1199.98px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .navbar-expand-xl>.container,
   .navbar-expand-xl>.container-fluid,
@@ -5703,7 +5703,7 @@ input[type=submit].btn-block {
 
 @media (min-width:1200px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .navbar-expand-xl {
     -webkit-flex-flow: row nowrap;
@@ -6059,7 +6059,7 @@ input[type=submit].btn-block {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .card-deck {
     display: -webkit-box;
@@ -6092,7 +6092,7 @@ input[type=submit].btn-block {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .card-group {
     display: -webkit-box;
@@ -6156,7 +6156,7 @@ input[type=submit].btn-block {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .card-columns {
     -webkit-column-count: 3;
@@ -6531,7 +6531,7 @@ a.badge-dark:focus {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .jumbotron {
     padding: 4rem 2rem
@@ -6895,7 +6895,7 @@ a.badge-dark:focus {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .list-group-horizontal-sm {
     -webkit-box-orient: horizontal;
@@ -6932,7 +6932,7 @@ a.badge-dark:focus {
 
 @media (min-width:768px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .list-group-horizontal-md {
     -webkit-box-orient: horizontal;
@@ -6969,7 +6969,7 @@ a.badge-dark:focus {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .list-group-horizontal-lg {
     -webkit-box-orient: horizontal;
@@ -7006,7 +7006,7 @@ a.badge-dark:focus {
 
 @media (min-width:1200px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .list-group-horizontal-xl {
     -webkit-box-orient: horizontal;
@@ -7507,7 +7507,7 @@ a.close.disabled {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .modal-dialog {
     max-width: 500px;
@@ -7540,7 +7540,7 @@ a.close.disabled {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .modal-lg,
   .modal-xl {
@@ -7550,7 +7550,7 @@ a.close.disabled {
 
 @media (min-width:1200px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .modal-xl {
     max-width: 1140px
@@ -8500,7 +8500,7 @@ button.bg-dark:hover {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .d-sm-none {
     display: none !important
@@ -8547,7 +8547,7 @@ button.bg-dark:hover {
 
 @media (min-width:768px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .d-md-none {
     display: none !important
@@ -8594,7 +8594,7 @@ button.bg-dark:hover {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .d-lg-none {
     display: none !important
@@ -8641,7 +8641,7 @@ button.bg-dark:hover {
 
 @media (min-width:1200px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .d-xl-none {
     display: none !important
@@ -9005,7 +9005,7 @@ button.bg-dark:hover {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .flex-sm-row {
     -webkit-box-orient: horizontal !important;
@@ -9237,7 +9237,7 @@ button.bg-dark:hover {
 
 @media (min-width:768px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .flex-md-row {
     -webkit-box-orient: horizontal !important;
@@ -9469,7 +9469,7 @@ button.bg-dark:hover {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .flex-lg-row {
     -webkit-box-orient: horizontal !important;
@@ -9701,7 +9701,7 @@ button.bg-dark:hover {
 
 @media (min-width:1200px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .flex-xl-row {
     -webkit-box-orient: horizontal !important;
@@ -9945,7 +9945,7 @@ button.bg-dark:hover {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .float-sm-left {
     float: left !important
@@ -9962,7 +9962,7 @@ button.bg-dark:hover {
 
 @media (min-width:768px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .float-md-left {
     float: left !important
@@ -9979,7 +9979,7 @@ button.bg-dark:hover {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .float-lg-left {
     float: left !important
@@ -9996,7 +9996,7 @@ button.bg-dark:hover {
 
 @media (min-width:1200px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .float-xl-left {
     float: left !important
@@ -10609,7 +10609,7 @@ button.bg-dark:hover {
 
 @media (min-width:576px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .m-sm-0 {
     margin: 0 !important
@@ -11046,7 +11046,7 @@ button.bg-dark:hover {
 
 @media (min-width:768px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .m-md-0 {
     margin: 0 !important
@@ -11483,7 +11483,7 @@ button.bg-dark:hover {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .m-lg-0 {
     margin: 0 !important
@@ -11921,7 +11921,7 @@ button.bg-dark:hover {
 @media (min-width:1200px) {
 
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .m-xl-0 {
     margin: 0 !important
@@ -12405,7 +12405,7 @@ button.bg-dark:hover {
 @media (min-width:576px) {
 
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .text-sm-left {
     text-align: left !important
@@ -12422,7 +12422,7 @@ button.bg-dark:hover {
 
 @media (min-width:768px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .text-md-left {
     text-align: left !important
@@ -12439,7 +12439,7 @@ button.bg-dark:hover {
 
 @media (min-width:992px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .text-lg-left {
     text-align: left !important
@@ -12456,7 +12456,7 @@ button.bg-dark:hover {
 
 @media (min-width:1200px) {
   #hidelogo{
-    display: none;
+    visibility: hidden;
   }
   .text-xl-left {
     text-align: left !important
@@ -23699,4 +23699,7 @@ print {
 .align {
   display:flex;
   align-items:center;
+}
+#hidelogo{
+  visibility: hidden !important;
 }
