@@ -460,6 +460,12 @@ h6 {
   text-align: center;
 
 }
+
+#tres{
+  font-family: 'Dancing Script', cursive;
+  float: left;
+  color: red;
+}
 .align h1{
   font-size: 60px;
 }
