@@ -23723,8 +23723,8 @@ print {
 
 
 /* //LOADER */
-.ploader {
-  height: 150%;
+.loader {
+  height: 1000vh;
 }
 
 .preloader{
