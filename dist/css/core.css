@@ -452,27 +452,6 @@ h6 {
   line-height: 1.2
 }
 
-#cursi h1 {
-  font-family: 'Dancing Script', cursive;
-	margin-top: 0;
-	margin-bottom: 500px;
-  color: #FFFF;    
-  text-align: center;
-
-}
-
-#tres{
-  font-family: 'Dancing Script', cursive;
-  text-align: center;
-  color: red;
-  font-size: 20px;
-  margin-top: 20px;
-  float: left;
-  padding-left: 10px;
-}
-#shopcart{
-  padding-right: 25px;
-}
 .align h1{
   font-size: 60px;
 }
@@ -23702,4 +23681,36 @@ print {
 }
 #hidelogo{
   visibility: hidden !important;
+}
+
+
+#fontsizeabout{
+  font-size: 50px;
+}
+#cursi h1 {
+  font-family: 'Dancing Script', cursive;
+	margin-top: 0;
+	margin-bottom: 500px;
+  color: #FFFF;    
+  text-align: center;
+
+}
+
+#tres{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  margin-top: 20px;
+  float: left;
+  padding-left: 10px;
+}
+#shopcart{
+  padding-right: 25px;
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
