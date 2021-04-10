@@ -9,4 +9,4 @@
       });
   })(jQuery)
   
-  document.getElementsByClassName("loaderAnimation").style.display="none";
+  document.getElementsByClassName("animsition-loading").style.display="none";
