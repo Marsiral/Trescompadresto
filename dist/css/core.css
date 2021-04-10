@@ -12806,6 +12806,7 @@ a.text-dark:hover {
   display: none
 }
 
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0
@@ -23653,7 +23654,7 @@ print {
 
 .preloader{
   -webkit-animation: spin 1s  infinite; /* Safari */
-  animation: spin 1s  infinite;
+  animation: spin 1s infinite;
   display: block;
   margin-left: auto;
   margin-right: auto;
