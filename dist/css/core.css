@@ -23729,17 +23729,12 @@ print {
   height: 100vh;
   align-items: center;
   justify-content: center;
-  -webkit-animation:spin 10s linear infinite;
-  -moz-animation:spin 10s linear infinite;
-  animation:spin 1s linear infinite;
+  margin-top: 150px;
+  animation-name: fadeIn;
+	animation-duration: 3s;        		
+	animation-iteration-count:infinite;  
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 50% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }}
-
-
-.ploader span {
-  --delay: 0s;
-  animation: arrows 1s var(--delay) infinite ease-in;
-}
+@keyframes fadeIn { 
+	0% {opacity: 0;} 
+	100% {opacity: 1;}} 
