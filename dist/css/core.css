@@ -23734,7 +23734,7 @@ print {
 
 .preloader{
   -webkit-animation: spin 1s linear infinite; /* Safari */
-  animation: spin 3s linear infinite;
+  animation: spin 1s linear infinite;
 }
 
 @-webkit-keyframes spin {
