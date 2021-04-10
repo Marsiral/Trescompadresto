@@ -73,17 +73,14 @@
                 <a href="#" id="nav-toggle"
                     data-toggle="panel-mobile"><span></span><span></span><span></span><span></span></a>
             </div> -->
-
-            <div class="module module-logo">
-                <span id="tres">Tres Compadres</span>
-                <a href="index.html">
-                    <img src="assets/img/logo.jpg" alt="">
-                </a>
-             
-            </div>
-
             
-
+            <div class="module module-logo">                   
+                <span style="float: left;">                    
+                    <img src="assets/img/logo.jpg" alt="">
+                </span> 
+            </div>     
+            <h1 id="tres"><span class="typed"></span></h1>
+           
             <a href="#" class="module module-cart" data-toggle="panel-cart">
                 <i class="ti ti-shopping-cart"></i>
                 <!-- <span class="notification">0</span> -->
@@ -532,36 +529,34 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <!-- Step -->
+                    <!-- <div class="col-md-4">                  
                         <div class="feature feature-1">
                             <div class="feature-icon icon icon-primary"><i class="ti ti-shopping-cart"></i></div>
                             <div class="feature-content">
                                 <h4 class="mb-2"><a href="menu-list-collapse.html">Pick a dish</a></h4>
-                                <!-- <p class="text-muted mb-0">Vivamus volutpat leo dictum risus ullamcorper condimentum.</p> -->
+                                <p class="text-muted mb-0">Vivamus volutpat leo dictum risus ullamcorper condimentum.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-4">
                         <!-- Step -->
                         <div class="feature feature-1">
                             <div class="feature-icon icon icon-primary"><i class="ti ti-wallet"></i></div>
                             <div class="feature-content">
-                                <h4 class="mb-2">Pick a delivery service</h4>
+                               <a data-toggle="panel-cart" type="button" style="text-decoration: underline;"> <h4 class="mb-2">Pick a delivery service</h4></a>
                                 <!-- <p class="text-muted mb-0">Vivamus volutpat leo dictum risus ullamcorper condimentum.</p> -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <!-- Step -->
+                    <!-- <div class="col-md-4">
                         <div class="feature feature-1">
                             <div class="feature-icon icon icon-primary"><i class="ti ti-package"></i></div>
                             <div class="feature-content">
                                 <h4 class="mb-2">Recieve your food!</h4>
-                                <!-- <p class="text-muted mb-3">Vivamus volutpat leo dictum risus ullamcorper condimentum.</p> -->
+                                <p class="text-muted mb-3">Vivamus volutpat leo dictum risus ullamcorper condimentum.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -939,6 +934,9 @@
 
     <!-- JS Core -->
     <script src="dist/js/core.js"></script>
+    <script src="dist/lib/jquery/jquery.min.js"></script>
+    <script src="dist/lib/typed/typed.js"></script>
+    <script src="dist/js/type.js"></script>
 
 </body>
 
