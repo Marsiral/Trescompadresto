@@ -23717,3 +23717,33 @@ print {
   max-width: 400px;
   height: auto;
 }
+#logoloc{
+  float: left;
+}
+
+
+/* //LOADER */
+
+.ploader {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes arrows {
+  0%,
+  100% {
+    color: black;
+    transform: translateY(0);
+  }
+  50% {
+    color: #3AB493;
+    transform: translateY(20px);
+  }
+}
+
+.ploader span {
+  --delay: 0s;
+  animation: arrows 1s var(--delay) infinite ease-in;
+}
