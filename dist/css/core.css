@@ -460,6 +460,9 @@ h6 {
   text-align: center;
 
 }
+.align h1{
+  font-size: 60px;
+}
 .display-2 {
   font-size: 88px;
   font-size: 5.5rem
@@ -23494,4 +23497,16 @@ print {
   margin: 0;
   overflow: visible;
   clip: auto
+}
+
+
+
+
+/* // Custom */
+
+
+
+.align {
+  display:flex;
+  align-items:center;
 }
