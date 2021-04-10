@@ -23724,7 +23724,7 @@ print {
 
 /* //LOADER */
 .ploader {
-  display: block;
+
   height: 100vh;
   align-items: center;
   justify-content: center;

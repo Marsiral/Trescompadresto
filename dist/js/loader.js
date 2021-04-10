@@ -1,10 +1,10 @@
 (function($){
     'use strict';
       $(window).on('load', function () {
-          if ($(".ploader").length > 0)
+          if ($(".preloader").length > 0)
           {
             setTimeout(function(){
-                $('.ploader').fadeOut('slow');
+                $('.preloader').fadeOut('slow');
             },1000);
           }
           
