@@ -23724,17 +23724,20 @@ print {
 
 /* //LOADER */
 .ploader {
-  display: absolute;
+  display: block;
   height: 100vh;
   align-items: center;
   justify-content: center;
-  margin-top: 150px;
-
 }
 
 .preloader{
   -webkit-animation: spin 1s linear infinite; /* Safari */
   animation: spin 1s linear infinite;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:250px;
+ 
 }
 
 @-webkit-keyframes spin {
