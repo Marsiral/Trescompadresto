@@ -12815,12 +12815,12 @@ a.text-dark:hover {
  * Author : blivesta (http://blivesta.com/)
  */
  .animsition{
-   position: relative;
-   opacity: 0;
-   -webkit-animation-fill-mode: both;
-   animation-fill-mode: both;
-   -webkit-animation-name: animsition-loading;
-   animation-name: animsition-loading
+    position: relative;
+    opacity: 0;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: animsition-loading;
+    animation-name: animsition-loading
  }
  
 
@@ -12830,7 +12830,7 @@ a.text-dark:hover {
      transform: rotate(0deg)
    }
  
-   to {
+   100% {
      -webkit-transform: rotate(1turn);
      transform: rotate(1turn)
    }
@@ -12842,7 +12842,7 @@ a.text-dark:hover {
      transform: rotate(0deg)
    }
  
-   to {
+   100% {
      -webkit-transform: rotate(1turn);
      transform: rotate(1turn)
    }
