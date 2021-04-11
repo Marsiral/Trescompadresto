@@ -23762,7 +23762,6 @@ print {
 .item {
   position: sticky;
 }
-
 .stick-2 {
-  top: 0rem;
+  top: 10rem;
 }
