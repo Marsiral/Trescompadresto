@@ -23754,3 +23754,15 @@ print {
   from{ bottom:-100px; opacity:0 } 
   to{ bottom:0; opacity:1 }
 }
+
+#MENU{
+  display: flex;
+  align-items: flex-start;
+}
+.item {
+  position: sticky;
+}
+
+.shark-2 {
+  top: 0rem;
+}
