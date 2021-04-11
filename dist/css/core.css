@@ -12840,8 +12840,8 @@ a.text-dark:hover {
    transform: translateZ(0);
    -webkit-animation-iteration-count: 3;
    animation-iteration-count: 3;
-   -webkit-animation-timing-function: linear;
-   animation-timing-function: linear;
+   -webkit-animation-timing-function: ease in;
+   animation-timing-function: ease in;
    -webkit-animation-duration: .5s;
    animation-duration: .5s;
    -webkit-animation-name: animsition-loading;
