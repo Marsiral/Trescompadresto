@@ -12814,7 +12814,12 @@ a.text-dark:hover {
  * License : MIT
  * Author : blivesta (http://blivesta.com/)
  */
-
+ /* .animsition{
+   position: relative;
+   opacity: 0;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both
+ } */
  .animsition-loading {
    width: 32px;
    height: 32px;
@@ -12824,7 +12829,7 @@ a.text-dark:hover {
    margin-top: -16px;
    margin-left: -16px;
    border-radius: 50%;
-   /* z-index: 100 */
+   z-index: 100
  }
  
  .animsition-loading {
