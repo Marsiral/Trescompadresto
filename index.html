@@ -38,11 +38,8 @@
     <img src="assets/img/logloader.jpg" alt="" class="preloader"> 
 </div> -->
 <body onload="myFunction()" style="margin:0;">
-    <div id="preloader">
-        <img src="assets/img/logo.jpg" alt="">
-    </div>
-     <div style="display:none;" id="myDiv" class="animate-bottom">
-    <div id="body-wrapper"  class="header-absolute" >       
+        
+    <div id="body-wrapper"  class="header-absolute">       
         <!-- Header -->
             <header id="header" class="absolute transparent">
 
@@ -250,14 +247,14 @@
             </div>
 
         </section>
-    </div> 
+
         <!-- Section - Menu Sample -->
         <section class="section right bg-light" id="MENU">
 
             <div class="container">
                 <div class="row no-gutters justify-content-center">
                     <div class="col-md-8" role="tablist">
-                        <h1 class="mb-6 text-center" id="fontsizeMenu"><strong>Menu </strong>List</h1>
+                        <h1 class="mb-6 text-center"><strong>Menu </strong>List</h1>
                         <!-- Menu Category / Burgers -->
                         <!-- Page Content -->
                         <div class="page-content">
@@ -265,13 +262,10 @@
                                 <div class="row no-gutters">
                                     <div class="col-md-3">
                                         <!-- Menu Navigation -->
-                                        <div class="item stick-2">
+                                        <nav id="menu-navigation" class="stick-to-content" data-local-scroll>
                                             <ul class="nav nav-menu bg-dark dark">
                                                 <a data-toggle="panel-cart" class="btn btn-primary"><span>TAKEOUT</span></a>
                                             </ul>
-                                          </div>
-                                        <nav id="menu-navigation" class="stick-to-contents" data-local-scroll>
-                                          
                                         </nav>
                                     </div>
                                     <div class="col-md-9">
@@ -811,7 +805,6 @@
         </div>
     </div>
 </div> -->
-      
     <!-- JS Core -->
     <script src="dist/js/core.js"></script>
     <script src="dist/lib/jquery/jquery.min.js"></script>
