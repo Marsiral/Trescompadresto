@@ -1,10 +1,10 @@
-var myVar;
+// var myVar;
 
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
+// function myFunction() {
+//   myVar = setTimeout(showPage, 3000);
+// }
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("loadtherest").style.display = "block";
-}
+// function showPage() {
+//   document.getElementById("loader").style.display = "none";
+//   document.getElementById("loadtherest").style.display = "block";
+// }

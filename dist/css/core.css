@@ -12830,8 +12830,7 @@ a.text-dark:hover {
    background-color: #ddd
  }
  
- .animsition-loading,
- .animsition-loading:after {
+ .animsition-loading {
    width: 32px;
    height: 32px;
    position: fixed;
@@ -12853,8 +12852,8 @@ a.text-dark:hover {
    animation-iteration-count: infinite;
    -webkit-animation-timing-function: linear;
    animation-timing-function: linear;
-   -webkit-animation-duration: .8s;
-   animation-duration: .8s;
+   -webkit-animation-duration: .5s;
+   animation-duration: .5s;
    -webkit-animation-name: animsition-loading;
    animation-name: animsition-loading
  }
