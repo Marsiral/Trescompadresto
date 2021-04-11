@@ -23758,7 +23758,7 @@ print {
 .bg{
   background-repeat: no-repeat;
   background-size: 100%;
-  background-attachment: cover;
+  background-attachment: fixed;
   background-position: center; 
 
 }
