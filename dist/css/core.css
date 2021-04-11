@@ -12814,7 +12814,7 @@ a.text-dark:hover {
  * License : MIT
  * Author : blivesta (http://blivesta.com/)
  */
- .animsition{
+ /* .animsition{
    position: fixed;
    opacity: 0;
    -webkit-animation-fill-mode: both;
@@ -12870,7 +12870,7 @@ a.text-dark:hover {
      -webkit-transform: rotate(1turn);
      transform: rotate(1turn)
    }
- }
+ } */
 
 @-webkit-keyframes fade-in {
   0% {
@@ -23713,7 +23713,7 @@ print {
 
 
 /* //LOADER */
-#loader {
+#preloader {
   position: fixed;
   left: 50%;
   top: 50%;
@@ -23721,7 +23721,9 @@ print {
   width: 120px;
   height: 120px;
   margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
   border-radius: 50%;
+  border-top: 16px solid #3498db;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
