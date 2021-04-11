@@ -12815,22 +12815,46 @@ a.text-dark:hover {
  * Author : blivesta (http://blivesta.com/)
  */
  .animsition{
-    position: relative;
-    opacity: 0;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-name: animsition-loading;
-    animation-name: animsition-loading
+   position: relative;
+   opacity: 0;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both
+ }
+ .animsition-loading {
+   width: 32px;
+   height: 32px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   margin-top: -16px;
+   margin-left: -16px;
+   border-radius: 50%;
+   z-index: 100
  }
  
-
+ .animsition-loading {
+   background-color: rgba(0, 0, 0, 0);
+   border: 5px solid rgba(0, 0, 0, .2);
+   border-left-color: #eee;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   -webkit-animation-iteration-count: 3;
+   animation-iteration-count: 3;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: .5s;
+   animation-duration: .5s;
+   -webkit-animation-name: animsition-loading;
+   animation-name: animsition-loading
+ }
+ 
  @-webkit-keyframes animsition-loading {
    0% {
      -webkit-transform: rotate(0deg);
      transform: rotate(0deg)
    }
  
-   100% {
+   to {
      -webkit-transform: rotate(1turn);
      transform: rotate(1turn)
    }
@@ -12842,7 +12866,7 @@ a.text-dark:hover {
      transform: rotate(0deg)
    }
  
-   100% {
+   to {
      -webkit-transform: rotate(1turn);
      transform: rotate(1turn)
    }
