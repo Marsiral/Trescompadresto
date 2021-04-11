@@ -23755,9 +23755,15 @@ print {
   to{ bottom:0; opacity:1 }
 }
 
-#MENU{
-  display: flex;
-  align-items: flex-start;
+.bg{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center; 
+
+}
+.bg-image{
+  opacity: 60%;
 }
 .item {
   position: sticky;
