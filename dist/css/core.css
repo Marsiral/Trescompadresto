@@ -12815,7 +12815,7 @@ a.text-dark:hover {
  * Author : blivesta (http://blivesta.com/)
  */
  .animsition{
-   position: relative;
+   position: fixed;
    opacity: 0;
    -webkit-animation-fill-mode: both;
    animation-fill-mode: both
