@@ -12823,7 +12823,7 @@ a.text-dark:hover {
  .animsition-loading {
    width: 32px;
    height: 32px;
-   position: fixed;
+   position: relative;
    top: 50%;
    left: 50%;
    margin-top: -16px;
