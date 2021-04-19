@@ -2710,22 +2710,6 @@ pre code {
   }
 }
 
-@media (max-width:991.98px) {
-  #hidelogo{
-    visibility: hidden;
-  }
-  .table-responsive-lg {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch
-  }
-
-  .table-responsive-lg>.table-bordered {
-    border: 0
-  }
-}
-
 @media (max-width:1199.98px) {
   #hidelogo{
     visibility: hidden;
@@ -4156,27 +4140,12 @@ input[type=submit].btn-block {
   #hidelogo{
     visibility: hidden;
   }
-  .dropdown-menu-md-left {
+  .dropdown-menu-sm-left {
     right: auto;
     left: 0
   }
 
-  .dropdown-menu-md-right {
-    right: 0;
-    left: auto
-  }
-}
-
-@media (min-width:992px) {
-  #hidelogo{
-    visibility: hidden;
-  }
-  .dropdown-menu-lg-left {
-    right: auto;
-    left: 0
-  }
-
-  .dropdown-menu-lg-right {
+  .dropdown-menu-sm-right {
     right: 0;
     left: auto
   }
